@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row > button {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+
+
+
+.textbox {
+  font-size: 32px;
+  padding: 2px;
+  width: 64px;
+  text-align: center;
+  margin-right: 4px;
+}
